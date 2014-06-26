@@ -19,6 +19,9 @@
 		4B4627EC195BFFDA003437C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4627D4195BFFDA003437C9 /* UIKit.framework */; };
 		4B4627F4195BFFDA003437C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B4627F2195BFFDA003437C9 /* InfoPlist.strings */; };
 		4B4627F6195BFFDA003437C9 /* GradesMarkVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4627F5195BFFDA003437C9 /* GradesMarkVTests.m */; };
+		4B462801195C0060003437C9 /* omoSyllabusAdderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B462800195C0060003437C9 /* omoSyllabusAdderViewController.m */; };
+		4B462803195C007C003437C9 /* omoSyllabusAdderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B462802195C007C003437C9 /* omoSyllabusAdderViewController.xib */; };
+		4B462806195C127E003437C9 /* omoSyllabusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B462805195C127E003437C9 /* omoSyllabusItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		4B4627F1195BFFDA003437C9 /* GradesMarkVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradesMarkVTests-Info.plist"; sourceTree = "<group>"; };
 		4B4627F3195BFFDA003437C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B4627F5195BFFDA003437C9 /* GradesMarkVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradesMarkVTests.m; sourceTree = "<group>"; };
+		4B4627FF195C0060003437C9 /* omoSyllabusAdderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omoSyllabusAdderViewController.h; path = ../../GradesMarkIV/GradesMarkIV/omoSyllabusAdderViewController.h; sourceTree = "<group>"; };
+		4B462800195C0060003437C9 /* omoSyllabusAdderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omoSyllabusAdderViewController.m; path = ../../GradesMarkIV/GradesMarkIV/omoSyllabusAdderViewController.m; sourceTree = "<group>"; };
+		4B462802195C007C003437C9 /* omoSyllabusAdderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = omoSyllabusAdderViewController.xib; path = ../../GradesMarkIV/GradesMarkIV/omoSyllabusAdderViewController.xib; sourceTree = "<group>"; };
+		4B462804195C127E003437C9 /* omoSyllabusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omoSyllabusItem.h; sourceTree = "<group>"; };
+		4B462805195C127E003437C9 /* omoSyllabusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omoSyllabusItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				4B4627DF195BFFDA003437C9 /* omoAppDelegate.h */,
 				4B4627E0195BFFDA003437C9 /* omoAppDelegate.m */,
+				4B4627FF195C0060003437C9 /* omoSyllabusAdderViewController.h */,
+				4B462800195C0060003437C9 /* omoSyllabusAdderViewController.m */,
+				4B462804195C127E003437C9 /* omoSyllabusItem.h */,
+				4B462805195C127E003437C9 /* omoSyllabusItem.m */,
+				4B462802195C007C003437C9 /* omoSyllabusAdderViewController.xib */,
 				4B4627E2195BFFDA003437C9 /* Images.xcassets */,
 				4B4627D7195BFFDA003437C9 /* Supporting Files */,
 			);
@@ -221,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4627DB195BFFDA003437C9 /* InfoPlist.strings in Resources */,
+				4B462803195C007C003437C9 /* omoSyllabusAdderViewController.xib in Resources */,
 				4B4627E3195BFFDA003437C9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4627E1195BFFDA003437C9 /* omoAppDelegate.m in Sources */,
+				4B462806195C127E003437C9 /* omoSyllabusItem.m in Sources */,
+				4B462801195C0060003437C9 /* omoSyllabusAdderViewController.m in Sources */,
 				4B4627DD195BFFDA003437C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

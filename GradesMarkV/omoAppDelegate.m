@@ -7,6 +7,7 @@
 //
 
 #import "omoAppDelegate.h"
+#import "omoSyllabusAdderViewController.h"
 
 @implementation omoAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    omoSyllabusAdderViewController *svc = [[omoSyllabusAdderViewController alloc] init];
+    self.window.rootViewController = svc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

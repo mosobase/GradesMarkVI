@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B4627CC195BFFDA003437C9"
-               BuildableName = "GradesMarkV.app"
-               BlueprintName = "GradesMarkV"
-               ReferencedContainer = "container:GradesMarkV.xcodeproj">
+               BuildableName = "GradesMarkVI.app"
+               BlueprintName = "GradesMarkVI"
+               ReferencedContainer = "container:GradesMarkVI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B4627E7195BFFDA003437C9"
-               BuildableName = "GradesMarkVTests.xctest"
-               BlueprintName = "GradesMarkVTests"
-               ReferencedContainer = "container:GradesMarkV.xcodeproj">
+               BuildableName = "GradesMarkVITests.xctest"
+               BlueprintName = "GradesMarkVITests"
+               ReferencedContainer = "container:GradesMarkVI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B4627CC195BFFDA003437C9"
-            BuildableName = "GradesMarkV.app"
-            BlueprintName = "GradesMarkV"
-            ReferencedContainer = "container:GradesMarkV.xcodeproj">
+            BuildableName = "GradesMarkVI.app"
+            BlueprintName = "GradesMarkVI"
+            ReferencedContainer = "container:GradesMarkVI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B4627CC195BFFDA003437C9"
-            BuildableName = "GradesMarkV.app"
-            BlueprintName = "GradesMarkV"
-            ReferencedContainer = "container:GradesMarkV.xcodeproj">
+            BuildableName = "GradesMarkVI.app"
+            BlueprintName = "GradesMarkVI"
+            ReferencedContainer = "container:GradesMarkVI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B4627CC195BFFDA003437C9"
-            BuildableName = "GradesMarkV.app"
-            BlueprintName = "GradesMarkV"
-            ReferencedContainer = "container:GradesMarkV.xcodeproj">
+            BuildableName = "GradesMarkVI.app"
+            BlueprintName = "GradesMarkVI"
+            ReferencedContainer = "container:GradesMarkVI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

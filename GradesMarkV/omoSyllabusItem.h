@@ -13,9 +13,13 @@
 @property (nonatomic) NSString *numberOfItems;
 @property (nonatomic) NSString *nameOfItem;
 @property (nonatomic) NSString *weightOfItem;
+@property (nonatomic) int grade;
+
+@property (nonatomic) NSString *previousString;
+@property (nonatomic) int itemCount;
 
 - (id)initWithNumberOfItems:(NSString *)numberOfItems NameofItem:(NSString *)nameOfItem
-               WeightOfItem:(NSString *)weightOfItem;
+               WeightOfItem:(NSString *)weightOfItem Grade:(int)grade;
 
 - (NSString *)description;
 @end
